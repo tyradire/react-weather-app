@@ -1,0 +1,33 @@
+.header {
+  width: 100%;
+  margin: 20px 0 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.link_home, 
+.change_theme {
+  margin-right: 25px;
+}
+
+.link_home {
+  svg {
+    width: 65px;
+    height: 65px;
+  }
+}
+
+.title {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: hsla(215, 100%, 64%, 1);
+}

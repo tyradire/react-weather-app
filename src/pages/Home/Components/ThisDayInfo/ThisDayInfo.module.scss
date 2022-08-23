@@ -1,0 +1,51 @@
+@import '../../../../styles/variables.scss';
+
+.this_day_info {
+  max-width: 700px;
+  width: 100%;
+  box-shadow: $light-shadow;
+  border-radius: $border-radius;
+  background: url('../../../../assets/cloud.png') 100% 0% no-repeat,
+              $light-bg;
+}
+
+.this_day_info__items {
+  padding: 56px 32px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+
+  .indicator {
+    width: 38px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    box-shadow: 1px 4px 10px -1px rgba(71, 147, 255, 0.2);
+    border-radius: 50%;
+  }
+
+  .indicator__name,
+  .indicator__value {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .indicator__name {
+    width: 100px;
+    margin: 0 20px;
+    color: $color-main-text;
+  }
+
+  .indicator__value {
+    color: $color-context-text;
+  }
+}
