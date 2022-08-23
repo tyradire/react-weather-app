@@ -4,10 +4,12 @@ import { Home } from './pages/Home/Home';
 import { MouthStatistics } from './pages/MouthStatistics/MouthStatistics';
 import { Header } from './shared/Header/Header';
 import './App.scss';
+import { Popup } from './shared/Popup/Popup';
 
 function App() {
   return (
     <div className="App">
+      <Popup />
       <Header />
       <Routes>
         <Route path='/' element={<Home/>} />

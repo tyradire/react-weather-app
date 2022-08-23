@@ -32,6 +32,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  svg {
+    width: 119px;
+    height: 119px;
+  }
 }
 
 .this_day__time,
