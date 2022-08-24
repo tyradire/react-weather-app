@@ -1,10 +1,42 @@
 $light-bg: hsl(0, 0%, 100%);
-$ui-bg: hsla(215, 100%, 64%, 0.2);
+$dark-bg: hsla(216, 28%, 7%);
+
+$light-main: hsl(0, 0%, 100%);
+$dark-main: hsla(0, 0%, 31%);
+
+$light-ui-bg: hsla(215, 100%, 64%, 0.2);
+$dark-ui-bg: hsla(0, 0%, 31%);
+
+$card-accent-light: hsla(215, 100%, 64%, 0.2);
+$card-accent-dark: hsla(223, 7%, 19%, 1);
+
 $light-shadow: 2px 5px 25px -3px hsla(0, 0%, 71%, 0.25);
+$dark-shadow: 2px 5px 25px -3px rgba(180, 180, 180, 0.25);
+
 $border-radius: 20px;
 $border-radius-m: 10px;
 $border-radius-s: 5px;
 
-$color-selected-text: hsla(215, 100%, 64%);
 $color-context-text: hsl(0, 0%, 0%);
+$color-context-text-dark: hsl(0, 0%, 100%);
+
+$color-selected-text: hsla(215, 100%, 64%);
 $color-main-text: hsl(221, 16%, 63%);
+
+[data-theme='light'] {
+  --body-bg: #{$light-bg};
+  --main-bg: #{$light-main};
+  --ui-bg: #{$light-ui-bg};
+  --card-bg: #{$card-accent-light};
+  --card-shadow: #{$light-shadow};
+  --text-color: #{$color-context-text};
+}
+
+[data-theme='dark'] {
+  --body-bg: #{$dark-bg};
+  --main-bg: #{$dark-main};
+  --ui-bg: #{$dark-ui-bg};
+  --card-bg: #{$card-accent-dark};
+  --card-shadow: #{$dark-shadow};
+  --text-color: #{$color-context-text-dark};
+}

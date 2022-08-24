@@ -3,10 +3,10 @@
 .this_day_info {
   max-width: 700px;
   width: 100%;
-  box-shadow: $light-shadow;
+  box-shadow: var(--card-shadow);
   border-radius: $border-radius;
   background: url('../../../../assets/cloud.png') 100% 0% no-repeat,
-              $light-bg;
+              var(--main-bg);
 }
 
 .this_day_info__items {
@@ -46,6 +46,6 @@
   }
 
   .indicator__value {
-    color: $color-context-text;
+    color: var(--text-color);
   }
 }

@@ -4,8 +4,8 @@
   max-width: 1200px;
   display: flex;
   justify-content: space-between;
-  background-color: $light-bg;
-  box-shadow: $light-shadow;
+  background-color: var(--main-bg);
+  box-shadow: var(--card-shadow);
   border-radius: $border-radius;
   padding: 20px;
 }
@@ -17,7 +17,7 @@
   width: 127px;
   height: 178px;
   padding: 11px;
-  background-color: $ui-bg;
+  background-color: var(--card-bg);
   border-radius: $border-radius-m;
 }
 
@@ -26,7 +26,7 @@
   font-weight: 500;
   font-size: 18px;
   line-height: 22px;
-  color: $color-context-text;
+  color: var(--text-color);
 }
 
 .card__date {
@@ -47,7 +47,7 @@
   font-weight: 500;
   font-size: 18px;
   line-height: 22px;
-  color: $color-context-text;
+  color: var(--text-color);
 }
 
 .card__temp_night,
@@ -78,10 +78,10 @@
   font-size: 18px;
   line-height: 22px;
   padding: 7px 20px;
-  background-color: $light-bg;
-  box-shadow: $light-shadow;
+  background-color: var(--ui-bg);
+  box-shadow: var(--card-shadow);
   border-radius: $border-radius-s;
-  color: $color-context-text;
+  color: var(--text-color);
 }
 
 .tabs__tab { 
@@ -93,7 +93,7 @@
   &:active {
     cursor: pointer;
     background-color: $color-selected-text;
-    color: $light-bg;
+    color: var(--body-bg);
   }
 }
 

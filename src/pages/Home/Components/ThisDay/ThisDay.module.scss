@@ -4,8 +4,8 @@
   width: 400px;
   height: 300px;
   padding: 20px;
-  background: $light-bg;
-  box-shadow: $light-shadow;
+  background: var(--main-bg);
+  box-shadow: var(--card-shadow);
   border-radius: $border-radius;
   display: flex;
   flex-direction: column;
@@ -25,7 +25,7 @@
   font-size: 40px;
   font-weight: 400;
   line-height: 49px;
-  color: $color-context-text;
+  color: var(--text-color);
 }
 
 .this_day__block_info {

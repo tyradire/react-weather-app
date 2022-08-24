@@ -10,9 +10,9 @@
   z-index: 100;
   display: flex;
   justify-content: space-between;
-  box-shadow: $light-shadow;
+  box-shadow: var(--card-shadow);
   border-radius: $border-radius;
-  background: $light-bg;
+  background: var(--body-bg);
 }
 
 .cover {
@@ -50,7 +50,7 @@
   font-weight: 400;
   font-size: 25px;
   line-height: 30px;
-  color: $color-context-text;
+  color: var(--text-color);
 }
 
 .this_day__block_info {

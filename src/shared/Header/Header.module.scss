@@ -15,6 +15,9 @@
 .link_home, 
 .change_theme {
   margin-right: 25px;
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 .link_home {

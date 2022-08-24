@@ -9,7 +9,7 @@ import { Popup } from './shared/Popup/Popup';
 function App() {
   return (
     <div className="App">
-      <Popup />
+      {/* <Popup /> */}
       <Header />
       <Routes>
         <Route path='/' element={<Home/>} />
