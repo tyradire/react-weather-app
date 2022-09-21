@@ -3,7 +3,7 @@
 .days {
   max-width: 1200px;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   background-color: var(--main-bg);
   box-shadow: var(--card-shadow);
   border-radius: $border-radius;
@@ -14,14 +14,15 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 127px;
+  width: 112px;
   height: 178px;
   padding: 11px;
+  margin-left: 20px;
   background-color: var(--card-bg);
   border-radius: $border-radius-m;
 }
 
-.card__day_name {
+.card__day_time {
   margin: 0;
   font-weight: 500;
   font-size: 18px;
@@ -35,6 +36,12 @@
   font-size: 14px;
   line-height: 17px;
   color: $color-main-text;
+}
+
+.card__icon {
+  height: 54px;
+  display: flex;
+  align-items: center;
 }
 
 .card__temp_day,
@@ -52,6 +59,7 @@
 
 .card__temp_night,
 .card__weather {
+  height: 32px;
   font-weight: 400;
   font-size: 13px;
   line-height: 16px;
@@ -95,6 +103,11 @@
     background-color: $color-selected-text;
     color: var(--body-bg);
   }
+}
+
+.tabs__tab_selected {
+  background-color: $color-selected-text;
+  color: var(--body-bg);
 }
 
 .tabs__cancel {
