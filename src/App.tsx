@@ -10,10 +10,11 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Routes>
-        <Route path='/react-weather-app' element={<Home/>} />
+      {/* <Routes>
+        <Route path='/' element={<Home/>} />
         <Route path='/month' element={<MouthStatistics/>}/>
-      </Routes>
+      </Routes> */}
+      <Home />
     </div>
   );
 }
