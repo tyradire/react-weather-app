@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <Header />
       <Routes>
-        <Route path='/' element={<Home/>} />
+        <Route path='/react-weather-app' element={<Home/>} />
         <Route path='/month' element={<MouthStatistics/>}/>
       </Routes>
     </div>
