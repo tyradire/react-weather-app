@@ -23,6 +23,11 @@ $color-context-text-dark: hsl(0, 0%, 100%);
 $color-selected-text: hsla(215, 100%, 64%);
 $color-main-text: hsl(221, 16%, 63%);
 
+$light-text-shadow: 0 0 4px hsl(0, 0%, 100%);
+$dark-text-shadow: 0 0 4px hsl(0, 0%, 0%);
+
+//0 0 5px -3px hsla(0, 0%, 71%, 0.25);
+
 [data-theme='light'] {
   --body-bg: #{$light-bg};
   --main-bg: #{$light-main};
@@ -30,6 +35,7 @@ $color-main-text: hsl(221, 16%, 63%);
   --card-bg: #{$card-accent-light};
   --card-shadow: #{$light-shadow};
   --text-color: #{$color-context-text};
+  --text-shadow: #{$light-text-shadow};
 }
 
 [data-theme='dark'] {
@@ -39,4 +45,5 @@ $color-main-text: hsl(221, 16%, 63%);
   --card-bg: #{$card-accent-dark};
   --card-shadow: #{$dark-shadow};
   --text-color: #{$color-context-text-dark};
+  --text-shadow: #{$dark-text-shadow};
 }

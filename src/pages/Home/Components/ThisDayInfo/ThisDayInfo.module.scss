@@ -43,9 +43,11 @@
     width: 100px;
     margin: 0 20px;
     color: $color-main-text;
+    
   }
 
   .indicator__value {
     color: var(--text-color);
+    text-shadow: var(--text-shadow);
   }
 }
