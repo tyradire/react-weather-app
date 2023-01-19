@@ -24,7 +24,6 @@ export const Header = (props: Props) => {
     } else {
       setTheme('light');
     }
-    console.log(theme)
   }
 
   const colorStyles = {
