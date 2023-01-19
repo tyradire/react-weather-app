@@ -6,7 +6,7 @@
 ![Weather App](https://github.com/tyradire/react-weather-app/blob/main/images/screenshot-1.png "App")
 
 ## GH-pages
-- [линк](https://tyradire.github.io/rest-countries-api-ts/)
+- [линк](https://tyradire.github.io/react-weather-app/)
 
 ## Technologies
 - [SCSS](https://sass-lang.com/documentation/)
