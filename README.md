@@ -3,7 +3,7 @@
 Можно выбрать город и день. Присутствует смена на тёмную тему.
 
 ## Screenshots
-![Weather App](https://github.com/tyradire/react-weather-app/blob/main/img/screenshot-1.png "App")
+![Weather App](https://github.com/tyradire/react-weather-app/blob/main/images/screenshot-1.png "App")
 
 ## GH-pages
 - [линк](https://tyradire.github.io/rest-countries-api-ts/)
