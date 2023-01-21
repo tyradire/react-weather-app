@@ -4,6 +4,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  @media screen and (max-width: 768px) {
+    margin: 0 auto;
+    max-width: 440px;
+  }
 }
 
 .wrapper {
@@ -18,12 +22,21 @@
   &:hover {
     cursor: pointer;
   }
+  @media screen and (max-width: 768px) {
+    margin-right: 15px;
+  }
 }
 
 .link_home {
   svg {
     width: 65px;
     height: 65px;
+  }
+  @media screen and (max-width: 768px) {
+    svg {
+      width: 38px;
+      height: 38px;
+    }
   }
 }
 
@@ -33,4 +46,10 @@
   line-height: 30px;
   text-transform: uppercase;
   color: hsla(215, 100%, 64%, 1);
+  @media screen and (max-width: 768px) {
+    font-size: 22px;
+    line-height: 1;
+    text-align: center;
+    margin-right: 15px;
+  }
 }

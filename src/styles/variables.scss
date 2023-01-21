@@ -36,6 +36,7 @@ $dark-text-shadow: 0 0 4px hsl(0, 0%, 0%);
   --card-shadow: #{$light-shadow};
   --text-color: #{$color-context-text};
   --text-shadow: #{$light-text-shadow};
+  --mobile-text: #{$color-selected-text};
 }
 
 [data-theme='dark'] {
@@ -46,4 +47,5 @@ $dark-text-shadow: 0 0 4px hsl(0, 0%, 0%);
   --card-shadow: #{$dark-shadow};
   --text-color: #{$color-context-text-dark};
   --text-shadow: #{$dark-text-shadow};
+  --mobile-text: #{$color-context-text-dark};
 }

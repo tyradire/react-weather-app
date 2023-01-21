@@ -1,0 +1,16 @@
+@import '../../styles/variables.scss';
+
+.open_button {
+  cursor: pointer;
+  margin-top: 20px;
+  width: 200px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: var(--card-shadow);
+  background-color: var(--main-bg);
+  color: var(--mobile-text);
+  &:hover {
+    background-color: var(--card-bg);
+  }
+}

@@ -8,6 +8,12 @@
   box-shadow: var(--card-shadow);
   border-radius: $border-radius;
   padding: 20px;
+  @media screen and (max-width: 768px) {
+    max-width: 440px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0;
+  }
 }
 
 .card {
@@ -20,6 +26,11 @@
   margin-left: 20px;
   background-color: var(--card-bg);
   border-radius: $border-radius-m;
+  @media screen and (max-width: 768px) {
+    margin: 10px;
+    width: 65px;
+    height: 140px;
+  }
 }
 
 .card__day_time {
@@ -68,12 +79,20 @@
 
 .card__weather {
   margin: 0;
+  @media screen and (max-width: 768px) {
+    height: 22px;
+    font-size: 11px;
+    line-height: 1;
+  }
 }
 
 .tabs {
   display: flex;
   justify-content: space-between;
   margin: 50px 0 7px;
+  @media screen and (max-width: 768px) {
+    margin: 20px 0 10px;
+  }
 }
 
 .tabs__wrapper {
@@ -90,6 +109,11 @@
   box-shadow: var(--card-shadow);
   border-radius: $border-radius-s;
   color: var(--text-color);
+  @media screen and (max-width: 768px) {
+    font-size: 12px;
+    line-height: 1;
+    padding: 10px 5px;
+  }
 }
 
 .tabs__tab { 
@@ -103,13 +127,12 @@
     background-color: $color-selected-text;
     color: var(--body-bg);
   }
+  @media screen and (max-width: 768px) {
+    margin-right: 5px;
+  }
 }
 
 .tabs__tab_selected {
   background-color: $color-selected-text;
   color: var(--body-bg);
-}
-
-.tabs__cancel {
-  
 }
