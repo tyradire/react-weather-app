@@ -8,12 +8,20 @@
     margin: 0 auto;
     max-width: 440px;
   }
+  @media screen and (max-width: 600px) {
+    max-width: 380px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
 }
 
 .wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  @media screen and (max-width: 600px) {
+    margin-right: 20px;
+  }
 }
 
 .link_home, 
@@ -38,6 +46,9 @@
       height: 38px;
     }
   }
+  @media screen and (max-width: 600px) {
+    margin-left: 20px;
+  }
 }
 
 .title {
@@ -51,5 +62,8 @@
     line-height: 1;
     text-align: center;
     margin-right: 15px;
+  }
+  @media screen and (max-width: 600px) {
+    display: none;
   }
 }

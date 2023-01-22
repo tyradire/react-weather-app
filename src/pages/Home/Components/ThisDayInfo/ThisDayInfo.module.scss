@@ -15,7 +15,7 @@
 .this_day_info__items {
   padding: 56px 32px;
   @media screen and (max-width: 600px) {
-    max-width: 340px;
+    max-width: 300px;
     padding: 20px;
   }
 }
@@ -67,7 +67,10 @@
     color: var(--text-color);
     text-shadow: var(--text-shadow);
     @media screen and (max-width: 768px) {
-      text-shadow: none;
+      text-align: end;
+    }
+    @media screen and (max-width: 600px) {
+      font-size: 12px;
+    }
   }
-}
 }
