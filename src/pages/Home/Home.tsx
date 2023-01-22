@@ -18,7 +18,6 @@ export const Home = (props: Props) => {
 
   const toggleOpenOtherDays = () => {
     setOpenOtherDays(!openOtherDays);
-    console.log(openOtherDays)
   }
 
   return (
@@ -27,7 +26,7 @@ export const Home = (props: Props) => {
         <ThisDay />
         <ThisDayInfo />
       </div>
-      {mobileSize ? <Days /> : <OpenButton toggleOpenOtherDays={toggleOpenOtherDays} />}
+      {mobileSize ? <Days /> : <OpenButton toggleOpenOtherDays={toggleOpenOtherDays} text={openOtherDays ? 'Закрыть' : 'Открыть'} />}
       {openOtherDays && <Days />}
     </div>
   )

@@ -13,6 +13,10 @@
   @media screen and (max-width: 768px) {
     max-width: 400px;
   }
+  @media screen and (max-width: 600px) {
+    max-width: 340px;
+    padding: 30px;
+  }
 }
 
 .this_day__degree {

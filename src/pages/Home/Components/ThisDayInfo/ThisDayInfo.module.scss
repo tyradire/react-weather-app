@@ -14,6 +14,10 @@
 
 .this_day_info__items {
   padding: 56px 32px;
+  @media screen and (max-width: 600px) {
+    max-width: 340px;
+    padding: 20px;
+  }
 }
 
 .item {
