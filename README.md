@@ -1,6 +1,7 @@
 # Weather App  
 Приложение предоставляет информацию о погоде.  
-Можно выбрать город и день. Присутствует смена на тёмную тему.  
+Можно выбрать город и день.  
+Присутствует смена на тёмную тему.  
 
 ## Screenshots
 ![Weather App](https://github.com/tyradire/react-weather-app/blob/main/images/screenshot-1.png "App")
